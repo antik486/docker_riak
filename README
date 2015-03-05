@@ -1,0 +1,2 @@
+docker build  --no-cache -t antik486/riak .
+docker run -p 8087:8087 -p 8098:8098 -p 8985:8985 -i -t  antik486/riak
